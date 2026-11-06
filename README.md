@@ -111,4 +111,8 @@ Set `GEMINI_API_KEY`, `LLM_MODEL`, `EMBEDDING_MODEL`, and `EMBEDDING_DIMENSIONS`
 The default embedding model is `gemini-embedding-001` with 1536 dimensions to match the existing PostgreSQL `vector(1536)` column.
 Document chunks are embedded with `RETRIEVAL_DOCUMENT`; user queries use `RETRIEVAL_QUERY`.
 Do not change the vector dimension without a planned database migration and re-embedding of all documents.
-if data is insufficient it impossible to show the financial insight
+
+
+
+
+## if data is insufficient it impossible to show the financial insight
